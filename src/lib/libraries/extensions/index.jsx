@@ -46,7 +46,32 @@ import gdxforInsetIconURL from './gdxfor/gdxfor-small.svg';
 import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
+import droneImage from './drone/drone.png'
+import droneInsetImage from './drone/drone-small.png'
+import droneConnectionIconURL from './drone/Drone.svg';
+import droneConnectionSmallIconURL from './drone/drone-small.png';
+
 export default [
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="DRONE"
+                description="Name for the 'Drone' extension"
+                id="gui.extension.drone.name"
+            />
+        ),
+        extensionId: 'drone',
+        iconURL: droneImage,
+        insetIconURL: droneInsetImage,
+        description: (
+            <FormattedMessage
+                defaultMessage="Drone extension"
+                description="Description for the 'Drone' extension"
+                id="gui.extension.drone.description"
+            />
+        ),
+        featured: true
+    },
     {
         name: (
             <FormattedMessage
