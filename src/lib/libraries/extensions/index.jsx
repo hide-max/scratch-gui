@@ -48,8 +48,6 @@ import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
 import droneImage from './drone/drone.png';
 import droneInsetImage from './drone/drone-small.png';
-//import droneConnectionIconURL from './drone/Drone.svg';
-//import droneConnectionSmallIconURL from './drone/drone-small.png';
 
 export default [
     {
